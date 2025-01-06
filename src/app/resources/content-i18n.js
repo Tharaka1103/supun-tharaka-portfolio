@@ -97,12 +97,12 @@ const createI18nContent = (t) => {
             title: 'Studies',
             institutions: [
                 {
-                    name: 'University of Jakarta',
-                    description: <>{t(`about.studies.institutions.University of Jakarta.description`)}</>,
+                    name: 'Sri Lanka Institute of Information Technology',
+                    description: <>Bachelor of Science (Hons) in Information Technology</>,
                 },
                 {
-                    name: 'Build the Future',
-                    description: <>{t("about.studies.institutions.Build the Future.description")}</>,
+                    name: 'Royal College Polonnaruwa',
+                    description: <>GCE Advanced Level (2021)</>,
                 }
             ]
         },

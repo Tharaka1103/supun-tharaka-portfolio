@@ -3,8 +3,6 @@ import "@/once-ui/tokens/index.scss";
 import { useContext } from 'react';
 
 import classNames from 'classnames';
-import { ThemeProvider } from '../../contexts/ThemeContext';
-import { ThemeContext } from '../../contexts/ThemeContext';
 import { Footer, Header, RouteGuard } from "@/components";
 import { baseURL, effects, style } from '@/app/resources'
 
@@ -130,9 +128,7 @@ export default async function RootLayout({
 							justifyContent="center"
 							fillWidth minHeight="0">
 							<RouteGuard>
-								<ThemeProvider>
 									{children}
-								</ThemeProvider>
 							</RouteGuard>
 						</Flex>
 					</Flex>
