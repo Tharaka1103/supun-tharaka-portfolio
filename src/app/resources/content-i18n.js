@@ -30,7 +30,7 @@ const createI18nContent = (t) => {
         {
             name: 'LinkedIn',
             icon: 'linkedin',
-            link: 'https://www.linkedin.com/company/once-ui/',
+            link: 'https://www.linkedin.com/in/tharaka-dharmasiri-3ba950204/',
         },
         {
             name: 'X',
@@ -65,7 +65,7 @@ const createI18nContent = (t) => {
         },
         calendar: {
             display: true,
-            link: 'https://cal.com'
+            link: 'https://wa.me/94714310048'
         },
         intro: {
             display: true,

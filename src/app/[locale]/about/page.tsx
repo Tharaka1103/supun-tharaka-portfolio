@@ -158,12 +158,11 @@ export default function About(
                                 alignItems="center">
                                 <Flex paddingLeft="12">
                                     <Icon
-                                        name="calendar"
-                                        onBackground="brand-weak"/>
+                                        name="email"/>
                                 </Flex>
                                 <Flex
                                     paddingX="8">
-                                    Schedule a call
+                                    Contact me
                                 </Flex>
                                 <IconButton
                                     href={about.calendar.link}

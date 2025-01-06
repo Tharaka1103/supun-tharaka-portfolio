@@ -29,7 +29,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/tharaka-dharmasiri-3ba950204/',
     },
     {
         name: 'X',
@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Software Engineer</>,
-    subline: <>I'm Supun Tharaka, a design engineer at <InlineCode>SKYREK (PVT) LTD.</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    subline: <>I'm Supun Tharaka, a design engineer at <InlineCode>SKYREK (PVT) LTD.</InlineCode>, where I craft intuitive software development. After hours, I build my own projects.</>
 }
 
 const about = {
@@ -64,7 +64,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: 'https://wa.me/94714310048'
     },
     intro: {
         display: true,
