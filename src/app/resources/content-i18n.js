@@ -40,7 +40,7 @@ const createI18nContent = (t) => {
         {
             name: 'Whatsapp',
             icon: 'whatsapp',
-            link: 'mhttps://wa.me/94714310048',
+            link: 'https://wa.me/94714310048',
         },
         {
             name: 'Skype',

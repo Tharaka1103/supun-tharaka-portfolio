@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Whatsapp',
         icon: 'whatsapp',
-        link: 'mhttps://wa.me/94714310048',
+        link: 'https://wa.me/94714310048',
     },
     {
         name: 'Skype',
