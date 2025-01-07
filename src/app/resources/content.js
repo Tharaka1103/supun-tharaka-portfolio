@@ -32,15 +32,26 @@ const social = [
         link: 'https://www.linkedin.com/in/tharaka-dharmasiri-3ba950204/',
     },
     {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        name: 'Facebook',
+        icon: 'facebook',
+        link: 'https://web.facebook.com/supun.tharaka.9277/',
     },
     {
-        name: 'Email',
-        icon: 'email',
-        link: 'supuntharakapro999@gmail.com',
+        name: 'Whatsapp',
+        icon: 'whatsapp',
+        link: 'mhttps://wa.me/94714310048',
     },
+    {
+        name: 'Skype',
+        icon: 'skype',
+        link: 'https://join.skype.com/invite/xm0tlzMujUcc',
+    },
+    {
+        name: 'View CV',
+        icon: 'eye',
+        link: '/Supun-Tharaka-SE.pdf',  // Update this path to match your CV filename in public folder
+        download: true  // This will trigger download instead of navigation
+    }
 ]
 
 const home = {
@@ -48,7 +59,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Software Engineer</>,
-    subline: <>I'm Supun Tharaka, a design engineer at <InlineCode>SKYREK (PVT) LTD.</InlineCode>, where I craft intuitive software development. After hours, I build my own projects.</>
+    subline: <>I'm Supun Tharaka, a Software engineer at <InlineCode>SKYREK (PVT) LTD.</InlineCode>, where I craft intuitive software development. After hours, I build my own projects.</>
 }
 
 const about = {
@@ -266,7 +277,7 @@ const gallery = {
         { 
             src: '/images/gallery/img-01.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'horizontal'
         },
         { 
             src: '/images/gallery/img-02.jpg', 
@@ -276,7 +287,7 @@ const gallery = {
         { 
             src: '/images/gallery/img-03.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'horizontal'
         },
         { 
             src: '/images/gallery/img-04.jpg', 
@@ -291,7 +302,7 @@ const gallery = {
         { 
             src: '/images/gallery/img-06.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'horizontal'
         },
         { 
             src: '/images/gallery/img-07.jpg', 
@@ -299,9 +310,29 @@ const gallery = {
             orientation: 'horizontal'
         },
         { 
+            src: '/images/gallery/cover-01.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/cover-02.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/cover-03.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/cover-04.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
             src: '/images/gallery/img-08.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'horizontal'
         },
         { 
             src: '/images/gallery/img-09.jpg', 
@@ -316,23 +347,8 @@ const gallery = {
         { 
             src: '/images/gallery/img-11.jpg', 
             alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-12.jpg', 
-            alt: 'image',
             orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-13.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-14.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
+        }
     ]
 }
 

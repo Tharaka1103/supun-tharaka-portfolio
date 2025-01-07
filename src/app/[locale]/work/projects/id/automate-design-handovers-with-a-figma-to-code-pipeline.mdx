@@ -1,43 +1,43 @@
 ---
-title: "Mengotomatisasi Penyerahan Desain dengan Pipeline Figma ke Kode"
+title: "Animated registration form"
 publishedAt: "2024-04-01"
-summary: "Mengeksplorasi perdebatan abadi antara penggunaan spasi dan tab untuk indentasi kode, dan mengapa pilihan ini lebih penting dari yang Anda kira."
+summary: "Animated registration form with 3 steps using HTML, CSS, and JavaScript."
 images:
-  - "/images/projects/project-01/cover-02.jpg"
-  - "/images/projects/project-01/image-03.jpg"
+  - "/images/projects/project-01/register1.png"
+  - "/images/projects/project-01/register2.png"
+  - "/images/projects/project-01/register3.png"
 team:
-  - name: "John Doe"
+  - name: "Supun Tharaka"
     role: "Software Engineer"
     avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
+    linkedIn: "https://www.linkedin.com/in/tharaka-dharmasiri-3ba950204/"
 ---
 
-## Ikhtisar
+## Overview
 
-Dalam proyek ini, saya berfokus pada otomatisasi proses penyerahan desain yang sering memakan waktu. Tujuannya adalah untuk membuat pipeline yang mengubah desain Figma langsung menjadi kode yang bersih dan siap produksi. Dengan mengintegrasikan token desain, perpustakaan komponen, dan alur kerja otomatis, solusi ini secara signifikan mengurangi waktu yang dihabiskan untuk menerjemahkan aset desain menjadi kode, sambil menjaga konsistensi desain di seluruh produk.
+In this project, I focused on automating the time-consuming design handover process. The goal was to create a pipeline that transforms Figma designs directly into clean, production-ready code. By integrating design tokens, component libraries, and automated workflows, this solution significantly reduces the time spent translating design assets into code while maintaining design consistency across products.
 
-## Fitur Utama
+## Key Features
 
-- **Integrasi Plugin Figma**: Mengembangkan plugin Figma khusus yang mengekstrak token desain seperti warna, tipografi, dan nilai jarak, lalu mengekspornya dalam format yang kompatibel dengan basis kode kami.
-- **Pembuatan Kode**: Mengintegrasikan proses otomatis yang menerjemahkan komponen Figma menjadi kode React menggunakan kombinasi token desain dan template komponen yang sudah dibangun. Ini memungkinkan pengembang untuk lebih fokus pada logika dan mengurangi pengkodean UI yang repetitif.
-- **Sinkronisasi Berkelanjutan**: Membuat pipeline CI/CD yang terus menerus menyinkronkan perubahan desain dari Figma ke basis kode, memastikan pembaruan desain tercermin secara instan tanpa intervensi manual.
-- **Sistem Desain yang Skalabel**: Memanfaatkan sistem desain yang tetap menjadi sumber kebenaran tunggal bagi desainer dan pengembang, memudahkan dalam menjaga konsistensi meskipun produk terus berkembang.
+- **Multi-step Form**: Created an intuitive 3-step registration process that guides users through personal information, account details, and preferences with smooth transitions.
+- **Form Validation**: Implemented real-time validation for each input field, providing immediate feedback to users and ensuring data accuracy before submission.
+- **Progress Tracking**: Added a visual progress indicator that shows users their current position in the registration flow and allows easy navigation between completed steps.
+- **Data Persistence**: Integrated local storage functionality to preserve user input between steps, preventing data loss if the browser is closed accidentally.## Technologies Used
 
-## Teknologi yang Digunakan
+## Technologies Used
+- **HTML**: For structuring the registration form and creating semantic markup.
+- **CSS**: For styling the form elements and creating smooth animations between steps.
+- **JavaScript**: For handling form validation, step transitions, and user interactions.
+- **LocalStorage**: For temporarily storing form data between steps.
 
-- **Figma API**: Untuk mengekstrak token desain dan data komponen langsung dari desain Figma.
-- **React dan Next.js**: Untuk membangun basis kode front-end dengan komponen yang bersih dan dapat digunakan kembali.
-- **Styled-Components**: Untuk mengelola gaya secara dinamis menggunakan token desain.
-- **GitHub Actions**: Untuk mengotomatisasi pipeline dan menyinkronkan perubahan desain ke repositori.
+## Challenges and Learnings
 
-## Tantangan dan Pembelajaran
+One of the main challenges was implementing smooth transitions between form steps while maintaining user data. This required careful state management and animation timing. Another challenge was creating responsive layouts that work well across different screen sizes while keeping the form elements properly aligned and accessible.
 
-Salah satu tantangan terbesar adalah memastikan bahwa kode yang dihasilkan bersih dan mudah dikelola. Ini melibatkan pengaturan pemetaan cerdas antara komponen Figma dan struktur kode React, serta menangani kasus-kasus tepi seperti desain responsif dan rendering bersyarat. Selain itu, sinkronisasi berkelanjutan memerlukan sistem penanganan kesalahan yang kuat untuk mencegah konflik selama pengembangan.
+## Challenges and Learnings
 
-## Hasil
+One of the main challenges was implementing smooth transitions between form steps while maintaining user data. This required careful state management and animation timing. Another challenge was creating responsive layouts that work well across different screen sizes while keeping the form elements properly aligned and accessible.
 
-Pipeline otomatis Figma ke kode telah merampingkan proses penyerahan, mengurangi waktu desain-ke-pengembangan sebesar 40%. Desainer kini lebih percaya diri bahwa desain mereka akan diterjemahkan dengan akurat ke dalam kode, dan pengembang dapat fokus pada logika yang lebih kompleks serta pengembangan fitur. Proyek ini telah membuktikan nilai otomasi dalam menjembatani kesenjangan antara desain dan pengembangan.
+## Results
 
----
-
-Proyek ini menunjukkan kemampuan Anda dalam memanfaatkan otomasi dan merampingkan alur kerja, yang sangat relevan untuk portofolio teknik desain yang berfokus pada efisiensi dan inovasi.
+The animated registration form project successfully demonstrates modern web development practices and user experience principles. The implementation of real-time validation, smooth animations, and data persistence creates a seamless registration experience. The project serves as a practical example of combining form functionality with engaging user interface design.

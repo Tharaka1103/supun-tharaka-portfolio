@@ -25,7 +25,7 @@ const createI18nContent = (t) => {
         {
             name: 'GitHub',
             icon: 'github',
-            link: 'https://github.com/once-ui-system/nextjs-starter',
+            link: 'https://github.com/Tharaka1103',
         },
         {
             name: 'LinkedIn',
@@ -33,15 +33,26 @@ const createI18nContent = (t) => {
             link: 'https://www.linkedin.com/in/tharaka-dharmasiri-3ba950204/',
         },
         {
-            name: 'X',
-            icon: 'x',
-            link: '',
+            name: 'Facebook',
+            icon: 'facebook',
+            link: 'https://web.facebook.com/supun.tharaka.9277/',
         },
         {
-            name: 'Email',
-            icon: 'email',
-            link: 'mailto:example@gmail.com',
+            name: 'Whatsapp',
+            icon: 'whatsapp',
+            link: 'mhttps://wa.me/94714310048',
         },
+        {
+            name: 'Skype',
+            icon: 'skype',
+            link: 'https://join.skype.com/invite/xm0tlzMujUcc',
+        },
+        {
+            name: 'View CV',
+            icon: 'eye',
+            link: '/Supun-Tharaka-SE.pdf',  // Update this path to match your CV filename in public folder
+            download: true  // This will trigger download instead of navigation
+        }
     ]
 
     const home = {
@@ -260,76 +271,81 @@ const createI18nContent = (t) => {
         description: t("gallery.description", {name: person.name}),
         // Images from https://pexels.com
         images: [
-            {
-                src: '/images/gallery/img-01.jpg',
-                alt: 'image',
-                orientation: 'vertical'
-            },
-            {
-                src: '/images/gallery/img-02.jpg',
+            { 
+                src: '/images/gallery/img-01.jpg', 
                 alt: 'image',
                 orientation: 'horizontal'
             },
             { 
-                src: '/images/gallery/img-03.jpg',
-                alt: 'image',
-                orientation: 'vertical'
-            },
-            { 
-                src: '/images/gallery/img-04.jpg',
-                alt: 'image',
-                orientation: 'horizontal'
-            },
-            {
-                src: '/images/gallery/img-05.jpg',
-                alt: 'image',
-                orientation: 'horizontal'
-            },
-            {
-                src: '/images/gallery/img-06.jpg',
-                alt: 'image',
-                orientation: 'vertical'
-            },
-            {
-                src: '/images/gallery/img-07.jpg',
-                alt: 'image',
-                orientation: 'horizontal'
-            },
-            {
-                src: '/images/gallery/img-08.jpg',
-                alt: 'image',
-                orientation: 'vertical'
-            },
-            {
-                src: '/images/gallery/img-09.jpg',
-                alt: 'image',
-                orientation: 'horizontal'
-            },
-            {
-                src: '/images/gallery/img-10.jpg',
+                src: '/images/gallery/img-02.jpg', 
                 alt: 'image',
                 orientation: 'horizontal'
             },
             { 
-                src: '/images/gallery/img-11.jpg',
-                alt: 'image',
-                orientation: 'vertical'
-            },
-            {
-                src: '/images/gallery/img-12.jpg',
-                alt: 'image',
-                orientation: 'horizontal'
-            },
-            {
-                src: '/images/gallery/img-13.jpg',
+                src: '/images/gallery/img-03.jpg', 
                 alt: 'image',
                 orientation: 'horizontal'
             },
             { 
-                src: '/images/gallery/img-14.jpg',
+                src: '/images/gallery/img-04.jpg', 
                 alt: 'image',
                 orientation: 'horizontal'
             },
+            { 
+                src: '/images/gallery/img-05.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/img-06.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/img-07.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/cover-01.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/cover-02.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/cover-03.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/cover-04.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/img-08.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/img-09.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/img-10.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            },
+            { 
+                src: '/images/gallery/img-11.jpg', 
+                alt: 'image',
+                orientation: 'horizontal'
+            }           
         ]
     }
     return {

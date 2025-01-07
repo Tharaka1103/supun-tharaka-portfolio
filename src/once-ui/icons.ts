@@ -1,4 +1,4 @@
-import { IconType } from 'react-icons';
+import { IconBaseProps, IconType } from 'react-icons';
 
 import {
 	HiChevronUp,
@@ -18,7 +18,8 @@ import {
 	HiMiniGlobeAsiaAustralia,
 	HiEnvelope,
 	HiCalendarDays,
-	HiClipboard
+	HiClipboard,
+	HiEye
 } from "react-icons/hi2";
 
 import {
@@ -31,8 +32,11 @@ import {
 
 import {
 	FaDiscord,
+	FaFacebook,
 	FaGithub,
 	FaLinkedin,
+	FaSkype,
+	FaWhatsapp,
 	FaXTwitter
 } from "react-icons/fa6";
 
@@ -63,5 +67,13 @@ export const iconLibrary: Record<string, IconType> = {
 	github: FaGithub,
 	linkedin: FaLinkedin,
 	x: FaXTwitter,
-	clipboard: HiClipboard
+	clipboard: HiClipboard,
+	facebook: FaFacebook,
+	whatsapp: FaWhatsapp,
+	skype: FaSkype,
+	eye: HiEye
 };
+
+function HiDownload(props: IconBaseProps): Element {
+	throw new Error('Function not implemented.');
+}

@@ -65,6 +65,16 @@ export default function About(
             display: about.technical.display,
             items: about.technical.skills.map(skill => skill.title)
         },
+        { 
+            title: about.softSkills.title,
+            display: about.softSkills.display,
+            items: about.softSkills.skills.map(skill => skill.title)
+        },
+        { 
+            title: about.newprojects.title,
+            display: about.newprojects.display,
+            items: about.newprojects.newprojects.map(skill => skill.title)
+        },
     ]
     return (
         <Flex
@@ -94,7 +104,7 @@ export default function About(
             />
             { about.tableOfContent.display && (
                 <Flex
-                    style={{ left: '0', top: '50%', transform: 'translateY(-50%)' }}
+                    style={{ left: '0', top: '50%', transform: 'translateY(-50%)', color: 'green' }}
                     position="fixed"
                     paddingLeft="24" gap="32"
                     direction="column" hide="s">
@@ -199,6 +209,7 @@ export default function About(
                                 ))}
                             </Flex>
                         )}
+                        
                     </Flex>
 
                     { about.intro.display && (
